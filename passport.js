@@ -6,7 +6,7 @@ passport.use(
     {
       clientID: '',
       clientSecret: '',
-      callbackURL: 'http://localhost:3000/auth/google/callback',
+      callbackURL: '',
     },
     (accessToken, refreshToken, profile, done) => {
       // Code to handle user authentication and retrieval
