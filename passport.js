@@ -4,7 +4,7 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 passport.use(
   new GoogleStrategy(
     {
-      clientID: '598407222811-fes1s9aqsaina0n8sv5to7spiu4gucc7.apps.googleusercontent.com',
+      clientID: '',
       clientSecret: '',
       callbackURL: 'http://localhost:3000/auth/google/callback',
     },
